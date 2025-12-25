@@ -241,3 +241,37 @@ ul {
   justify-content: center;
   gap: 3em;
 }
+
+.container-sub-footer1{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #01579b;
+  color: #fafafa;
+}
+
+.container-footer-2{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  color: #fafafa;
+}
+
+.container-footer-2 div ul{
+  line-height: 30px;
+}
+.container-footer-2 div ul li{
+  font-size: 10pt;
+  list-style: none;
+}
+
+.container-footer-end{
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.container-footer-end div{
+  display: flex;
+  align-items: center;
+}
