@@ -3,7 +3,7 @@
 body {
   background-color: #fafafa;
   flex-grow: 0;
-  height: 5440px;
+  /*height: 5440px;*/
   padding: 0 15px;
   width: 1920px;
   margin: auto;
@@ -228,4 +228,16 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.box-galeria-2{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-clientes-links{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3em;
 }
