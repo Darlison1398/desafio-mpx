@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #fafafa;
-  flex-grow: 0;
-  /*height: 5440px;*/
-  padding: 0 15px;
-  margin: auto;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  margin-bottom: 0;
+}
+
+main {
+  padding: 0;
+  margin: 0;
 }
 
 header .nav {
@@ -77,6 +90,8 @@ ul {
 }
 
 .header-barra {
+  margin-bottom: 0;
+  border-bottom: 0;
   box-shadow: 1px 2px 8px 0 #e0e7f2;
   border-radius: 5px;
   /*background-color: ;*/
@@ -117,10 +132,6 @@ ul {
   color: #01579b
 }
 
-main{
-  padding: 0;
-  margin: 0;
-}
 .container-first-div-main{
   background-color: #0277bd;
   margin: 0;
@@ -242,8 +253,13 @@ main{
   color: #fafafa;
 }
 
+.container-footer-2 div{
+  width: 290px;
+}
+
 .container-footer-2 div ul{
   line-height: 30px;
+  padding-left: 0;
 }
 .container-footer-2 div ul li{
   font-size: 10pt;
