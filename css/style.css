@@ -32,7 +32,7 @@ header a {
 
 .nav-acessibilidade {
   border-radius: 12px;
-  box-shadow: 1px 2px 8px 0 #e0e7f2;
+  /*box-shadow: 1px 2px 8px 0 #e0e7f2;*/
   flex-grow: 0;
   height: 54px;
   padding: 8px;
@@ -232,18 +232,39 @@ ul {
 }
 
 .section-clientes-links{
+  margin-top: 3em;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 3em;
+
+  max-width: 1000px; /* Limita a largura total */
+  margin-left: auto;
+  margin-right: auto;
 }
+
 
 .container-sub-footer1{
   display: flex;
   justify-content: center;
-  justify-content: space-between;
+  gap: 3em;
   background-color: #01579b;
   color: #fafafa;
+}
+
+.container-sub-footer1 .ft-dv-1{
+  width: 350px;
+  justify-content:right;
+  text-align: end;
+}
+
+.container-sub-footer1 .ft-dv-logo{
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+   background-color: #1f3c50; 
 }
 
 .container-footer-2{
@@ -273,6 +294,12 @@ ul {
 }
 
 .container-footer-end div{
+  display: flex;
+  align-items: center;
+}
+
+.box-cl-links{
+  box-shadow: 1px 2px 8px 0 #e0e7f2;;
   display: flex;
   align-items: center;
 }
