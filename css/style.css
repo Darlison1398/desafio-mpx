@@ -40,6 +40,7 @@ header a {
 
 .nav {
   width: 100%;
+  gap: 2em;
 }
 
 ul {
@@ -56,22 +57,21 @@ ul {
 }
 
 .nav-item {
+  width: 200px;
   align-content: center;
   background-color: #f3efef;
   border-radius: 12px;
   border: solid 1px #eeeeee;
   display: flex;
-  flex-grow: 0;
-  height: 38px;
-  margin: 0 30px 0px 0;
-  padding: 12px 39px 11px 36px;
+  padding: 10px;
+  justify-content: center;
 }
 
 .nav-item-texto {
   color: #000000;
   flex-grow: 0;
   font-family: Inter;
-  font-size: 12pt;
+  font-size: 10pt;
   font-stretch: normal;
   font-style: normal;
   font-weight: 500;
@@ -82,7 +82,6 @@ ul {
 }
 
 .box-header .container{
-  /*background-color: #01579b;*/
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -187,9 +186,6 @@ ul {
   border: none;
 }
 
-
-
-
 .box-noticias{
   display: flex;
   justify-content: center;
@@ -254,7 +250,7 @@ ul {
   justify-content: center;
   gap: 3em;
 
-  max-width: 1000px; /* Limita a largura total */
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
