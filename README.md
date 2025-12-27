@@ -2,7 +2,8 @@
 
 <p>
   Desafio finalizado e publicado no netlify para uma melhor viasualização. Nesse primeiro momento, foquei apenas em desenvolver ele no modelo Desktop e ainda não trabalhei na responividade dele. Isso é uma ideia de implementação futura, visando deixar ele totalmente adaptado para aparelhos pequenos como <strong>celulares</strong> e <strong>tablets.</strong>
-  Você pode conferir melhor nesse link: https://desafio-mpx.netlify.app/
+  Você pode conferir melhor nesse link: 
+  https://desafio-mpx.netlify.app/
 </p><hr/>
 
 <ul>
