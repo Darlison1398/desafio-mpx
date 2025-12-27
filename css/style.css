@@ -143,6 +143,8 @@ ul {
 
 .container-first-div-main{
   background-color: #0277bd;
+  position: relative;
+  overflow: hidden;
   margin: 0;
   padding: 0;
 }
@@ -318,4 +320,78 @@ ul {
   box-shadow: 1px 2px 8px 0 #e0e7f2;;
   display: flex;
   align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.main-carousel {
+  width: 100%;
+  max-height: 400px;
+}
+
+.carousel-slide {
+  outline: none;
+  height: 400px;
+  min-height: 400px;
+}
+
+/* Estilos para os dots (pontos de navegação) */
+.slick-dots {
+  bottom: 20px;
+  position: absolute;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #FFF;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #FFF;
+  opacity: 1;
+}
+
+/* Estilos para as setas */
+.slick-prev, .slick-next {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+.slick-prev:hover, .slick-next:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  font-size: 20px;
+  color: #FFF;
+}
+
+.slick-prev:before {
+  content: '\f053'; /* ícone seta esquerda */
+}
+
+.slick-next:before {
+  content: '\f054'; /* ícone seta direita */
+}
+
+.slick-prev {
+  left: 25px;
+}
+
+.slick-next {
+  right: 25px;
 }
