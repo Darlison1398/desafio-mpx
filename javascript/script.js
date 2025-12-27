@@ -1,22 +1,22 @@
 $(document).ready(function(){
   $('.main-carousel').slick({
-    dots: true,                // Mostra os pontos de navegação
-    arrows: true,              // Mostra setas de navegação
-    infinite: true,            // Loop infinito
-    speed: 500,                // Velocidade da transição
-    slidesToShow: 1,           // Mostra 1 slide por vez
-    slidesToScroll: 1,         // Move 1 slide por vez
-    autoplay: true,            // Auto-play ativado
-    autoplaySpeed: 5000,       // Troca a cada 5 segundos
-    pauseOnHover: true,        // Pausa ao passar mouse
-    fade: false,               // Transição fade (false = slide)
-    cssEase: 'ease',          // Tipo de easing
-    adaptiveHeight: true,      // Ajusta altura automaticamente
+    dots: true,                
+    arrows: true,              
+    infinite: true,
+    speed: 500,              
+    slidesToShow: 1,        
+    slidesToScroll: 1,         
+    autoplay: true,            
+    autoplaySpeed: 5000,       
+    pauseOnHover: true,        
+    fade: false,               
+    cssEase: 'ease',         
+    adaptiveHeight: true,     
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          arrows: false        // Remove setas em mobile
+          arrows: false        
         }
       }
     ]
